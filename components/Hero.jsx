@@ -13,7 +13,7 @@ const Hero = () => {
       secondBtnText={"watch vedio"}
       firstBtnIcon={<AlignCenterHorizontal />}
       secondBtnIcon={<PictureInPicture />}
-      imagePath={"/assets/hero.png"}
+      imagePath={"/assets/third.png"}
     />
   );
 };
