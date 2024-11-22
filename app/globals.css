@@ -2,26 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.custom-bg {
+  background: radial-gradient(
+    ellipse 200% 100% at bottom left,
+    #cdcdcd,
+    rgba(234, 238, 254, 0.66)
+  );
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.custom-btn {
+  background-color: white;
+  color: black;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.custom-btn:hover {
+  color: white;
+  border: white 1.5px solid;
 }

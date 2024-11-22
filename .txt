@@ -1,0 +1,67 @@
+<html>
+ <head>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&amp;display=swap" rel="stylesheet"/>
+ </head>
+ <body class="bg-gray-900 text-white font-inter">
+  <!-- Top Notification Bar -->
+  <div class="bg-gray-800 text-center py-2">
+   <span class="text-sm">
+    We have launched Flowbite Blocks featuring over 450+ website sections!
+    <a class="text-blue-400" href="#">
+     Check it out →
+    </a>
+   </span>
+  </div>
+  <!-- Hero Section -->
+  <div class="container mx-auto px-4 py-16 flex flex-col md:flex-row items-center">
+   <div class="md:w-1/2">
+    <h1 class="text-5xl font-bold leading-tight">
+     We invest in the world’s potential
+    </h1>
+    <p class="mt-4 text-lg text-gray-400">
+     Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.
+    </p>
+    <div class="mt-6 flex">
+     <input class="px-4 py-2 rounded-l bg-gray-800 text-gray-400 border border-gray-700 focus:outline-none" placeholder="Enter your email" type="email"/>
+     <button class="bg-blue-600 text-white px-4 py-2 rounded-r">
+      Sign up
+     </button>
+    </div>
+    <div class="mt-4 flex items-center text-gray-400">
+     <i class="fas fa-star text-yellow-400">
+     </i>
+     <span class="ml-2">
+      1,456+ Reviews
+     </span>
+     <span class="mx-2">
+      |
+     </span>
+     <span>
+      No Credit Card Required
+     </span>
+    </div>
+   </div>
+   <div class="md:w-1/2 mt-8 md:mt-0">
+    <div class="relative">
+     <img alt="Person thinking with TRYING FLOWBITE text" class="rounded-lg" height="400" src="https://storage.googleapis.com/a1aa/image/fG0BaFob7z0nQCZrL6GLLl6xi5yvAP2pjZcqnYMCF6L4Hr2JA.jpg" width="600"/>
+     <a class="absolute inset-0 flex items-center justify-center" href="#">
+      <i class="fab fa-youtube text-red-600 text-6xl">
+      </i>
+     </a>
+    </div>
+   </div>
+  </div>
+  <!-- Logos Section -->
+  <div class="container mx-auto px-4 py-8 flex justify-around items-center">
+   <img alt="airbnb logo" class="h-10" height="40" src="https://storage.googleapis.com/a1aa/image/sC86Qz4xYdJpNZTU6rF47ZDfzbxZdw0c2pfeIxomYbotfY1OB.jpg" width="100"/>
+   <img alt="Google logo" class="h-10" height="40" src="https://storage.googleapis.com/a1aa/image/UF6SZKFgJw4fG6CttKt8LydNEBKr7VBgtqB6lwYHrmS5Hr2JA.jpg" width="100"/>
+   <img alt="Nike logo" class="h-10" height="40" src="https://storage.googleapis.com/a1aa/image/zN60otYYubKBMhOgInKwXKgSZzA7gWvsoOSpDTgeZC85Hr2JA.jpg" width="100"/>
+   <img alt="Uber logo" class="h-10" height="40" src="https://storage.googleapis.com/a1aa/image/ofHfduD8kGpBvkGeQpg1Tf3rBjQ0mEO9ofGyZMqAi79GfjV7E.jpg" width="100"/>
+   <img alt="stripe logo" class="h-10" height="40" src="https://storage.googleapis.com/a1aa/image/Q2B2W5Uu3V63NVvl1ofRlIynvLb6HvdmEIfitevGM25eexqdC.jpg" width="100"/>
+   <img alt="Mashable logo" class="h-10" height="40" src="https://storage.googleapis.com/a1aa/image/8Xw7X5ZPpE77MRIVLTJe45d0epAzCNnQoRp0xQcVwhA1PWtTA.jpg" width="100"/>
+  </div>
+ </body>
+</html>
